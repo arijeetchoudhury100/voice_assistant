@@ -41,7 +41,7 @@ def showWeatherDetails(city):
     this function returns the weather summary, temperature and humidity for the specified city
     '''
     geolocator = Nominatim(user_agent='my-user')
-    api_key = '2b9430c0adef2115645fefaef5562800'
+    api_key = 'your api key here'
     url = 'https://api.darksky.net/forecast/' + api_key +'/'
     
     #get latitude and longitude for the city using geopy
